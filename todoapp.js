@@ -1,3 +1,5 @@
+/// A few basic commands ///
+
 // Array in JavaScript will store our todos
 var todos = ['item1', 'item2', 'item3'];
 
@@ -7,4 +9,8 @@ console.log("My todos:", todos);
 // Add new todos to our list
 todos.push('item4');
 
-// Changing existing todo
+// Changing existing todo 
+todos[0] = 'item1updated';
+
+// Deleting a todo (position, how many items)
+toodos.splice(0, 1);
