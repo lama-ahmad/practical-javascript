@@ -1,29 +1,23 @@
-// Array in JavaScript will store our todos
-var todos = ['item1', 'item2', 'item3'];
-
-////// v2 ////////
-
-// Function to display todos 
-function displayTodos() {
-    console.log("My todos:", todos);
-}
-
-// Function to add todos 
-function addTodo(newTodo) {
-    todos.push(newTodo);
-    displayTodos();
-}
-
-// Function to change todos 
-function changeTodo(position, newValue) {
-    todos[position] = newValue;
-    displayTodos();
-}
-
-// Function to delete todos 
-function deleteTodo(position) { 
-    todos.splice(position, 1);
-    displayTodos();
-}
-
-displayTodos();
+// Object in JavaScript will store our todos
+var todoList = {
+    todos: ['item1', 'item2', 'item3'],
+    // Function to display todos 
+    displayTodos: function() {
+        console.log(this.todos);        
+    },
+    // Function to add todos 
+    addTodo: function(todo) {
+        this.todos.push(todo);
+        this.displayTodos();
+    },
+    // Function to change todos 
+    changeTodo: function(position, newValue) {
+        this.todos[position] = newValue;
+        this.displayTodos();
+    }, 
+    // Function to delete todos 
+    deleteTodo: function(position) {
+        this.todos.splice(position, 1);
+        this.displayTodos;
+    }
+};
