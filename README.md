@@ -13,7 +13,14 @@ v1 Requiremets
 - [x] It should have a way to delete a todo
 
 v2 Requirements
-- [ ] It should have a function to display todos
-- [ ] It should have a function to add todos
-- [ ] It should have a function to change todos
-- [ ] It should have a function to delete todos
+- [x] It should have a function to display todos
+- [x] It should have a function to add todos
+- [x] It should have a function to change todos
+- [x] It should have a function to delete todos
+
+v3 Requirements
+- [ ] It should store the todos array on an object
+- [ ] It should have a displayTodos method
+- [ ] It should have a addTodo method
+- [ ] It should have a changeTodo method
+- [ ] It should have a deleteTodo method
