@@ -18,6 +18,6 @@ var todoList = {
     // Function to delete todos 
     deleteTodo: function(position) {
         this.todos.splice(position, 1);
-        this.displayTodos;
+        this.displayTodos();
     }
 };
