@@ -23,10 +23,10 @@ var todoList = {
         this.todos.splice(position, 1);
         this.displayTodos();
     },
-    // Toggle completed
+    // Toggle completed todo object
     toggleCompleted: function(position) {
        var todo = this.todos[position];
-       todo.completed = !todo.completed
+       todo.completed = !todo.completed;
        this.displayTodos();       
     }
 };
