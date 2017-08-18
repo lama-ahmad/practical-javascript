@@ -1,16 +1,29 @@
-/// A few basic commands ///
-
 // Array in JavaScript will store our todos
 var todos = ['item1', 'item2', 'item3'];
 
-// Print out our todos to display them
-console.log("My todos:", todos);
+////// v2 ////////
 
-// Add new todos to our list
-todos.push('item4');
+// Function to display todos 
+function displayTodos() {
+    console.log("My todos:", todos);
+}
 
-// Changing existing todo 
-todos[0] = 'item1updated';
+// Function to add todos 
+function addTodo(newTodo) {
+    todos.push(newTodo);
+    displayTodos();
+}
 
-// Deleting a todo (position, how many items)
-toodos.splice(0, 1);
+// Function to change todos 
+function changeTodo(position, newValue) {
+    todos[position] = newValue;
+    displayTodos();
+}
+
+// Function to delete todos 
+function deleteTodo(position) { 
+    todos.splice(position, 1);
+    displayTodos();
+}
+
+displayTodos();
