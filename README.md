@@ -26,6 +26,12 @@ v3 Requirements
 - [x] It should have a deleteTodo method
 
 v4 Requirements 
-- [ ] todoList.addTodo should add objects
-- [ ] todoList.changeTodo should change the todoText property 
-- [ ] todoList.toggleCompletes should change the completed property
+- [x] todoList.addTodo should add objects
+- [x] todoList.changeTodo should change the todoText property 
+- [x] todoList.toggleCompletes should change the completed property
+
+v5 Requirements
+- [ ] .displayTodos should show .todoText
+- [ ] .displayTodos should tell you if .todos is empty
+- [ ] .displayTodos should show .completed
+
