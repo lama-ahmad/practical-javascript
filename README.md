@@ -31,7 +31,7 @@ v4 Requirements
 - [x] todoList.toggleCompletes should change the completed property
 
 v5 Requirements
-- [ ] .displayTodos should show .todoText
-- [ ] .displayTodos should tell you if .todos is empty
-- [ ] .displayTodos should show .completed
+- [x] .displayTodos should show .todoText
+- [x] .displayTodos should tell you if .todos is empty
+- [x] .displayTodos should show .completed
 
