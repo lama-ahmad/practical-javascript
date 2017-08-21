@@ -36,7 +36,13 @@ v5 Requirements
 - [x] .displayTodos should show .completed
 
 v6 Requirements
-- [ ] .toggleAll: If everything's true, make everything false
-- [ ] .toggleAll: Otherwise, make everything true
+- [x] .toggleAll: If everything's true, make everything false
+- [x] .toggleAll: Otherwise, make everything true
+
+v7 Requirements 
+- [ ] There should be a Display All and Toggle All button in the app
+- [ ] Clicking Display All should run todoList.displayTodos
+- [ ] Clicking Toggle All should run todoList.toggleAll
+
 
 
